@@ -58,7 +58,7 @@ body {
     flex-direction: column;
     align-items: center;
     background: white;
-    padding: 0 0 100px 0;
+    padding: 0 0 50px 0;
 }
 
 .info-container .title {
@@ -93,6 +93,76 @@ body {
     border: 2px solid black;
 }
 
+.quote-container {
+    display: flex;
+    background: #E4E7EB;
+    flex-direction: column;
+}
+
+.quote-container .quote li {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    padding: 100px 300px 0px 300px;
+}
+
+.quote-container .caption {
+    align-self: flex-end;
+    padding-right: 300px;
+    margin-top: -15px;;
+}
+
+.quote-container .caption li {
+    font-weight: 900;
+}
+
+.action-container {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.action-container .outer {
+    background: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin: 80px 150px 80px 150px;
+}
+
+.action-container .inner {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    padding: 50px 100px 50px 100px;
+    color: white;
+}
+
+.action-container .left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-container .left-side div {
+    display: flex;
+
+}
+
+.action-container .right-side div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container .right-side button {
+    font-size: 18px;
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
 a {
     font-size: 18px;
     color: #E5E7EB;
@@ -103,6 +173,5 @@ ul {
     display: flex;
     list-style: none;
     gap: 48px;
-
 }
 
