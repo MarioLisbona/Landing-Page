@@ -59,6 +59,8 @@ body {
     align-items: center;
     background: white;
     padding: 0 0 50px 0;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
 }
 
 .info-container .title {
@@ -121,6 +123,8 @@ body {
     background: white;
     display: flex;
     justify-content: center;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
 }
 
 .action-container .outer {
@@ -157,6 +161,7 @@ body {
 
 .action-container .right-side button {
     font-size: 18px;
+    color: white;
     background: #3882F6;
     border: 2px solid white;
     border-radius: 8px;
