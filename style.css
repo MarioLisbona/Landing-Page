@@ -106,13 +106,14 @@ body {
     font-weight: 100;
     font-style: italic;
     color: #1F2937;
-    padding: 100px 300px 0px 300px;
+    padding: 100px 300px 100px 300px;
 }
 
 .quote-container .caption {
     align-self: flex-end;
     padding-right: 300px;
-    margin-top: -15px;;
+    margin-top: -100px;
+    margin-bottom: 60px;
 }
 
 .quote-container .caption li {
